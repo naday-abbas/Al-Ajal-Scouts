@@ -68,6 +68,17 @@ img{
     font-size: clamp(25px, 6vw, 50px);
     font-weight: 600;
 }
+@media (max-width: 768px) {
+.logo{
+  width: 60px;
+}
+}
+@media (max-width: 768px) {
+  .AlAjalText{
+    font-size: 30px;
+    line-height: 38px;
+  }
+  }
 @-webkit-keyframes ALAJAL {
     0% {
       letter-spacing: -0.5em;
